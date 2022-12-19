@@ -1,0 +1,19 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   margin-top: 50px;
+
+}
+
+button {
+    background: #000000;
+    color: #e8eaed;
+    width: 50px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(126, 119, 119);
+}
