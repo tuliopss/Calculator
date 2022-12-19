@@ -57,7 +57,7 @@ button#division, button#mult, button#minus, button#plus, button#mult, button#equ
     
 }
 
-button#percent, button#signals, button#erase {
+button#backspace, button#signals, button#erase {
     background: gray;
     color: #000000;
     font-size: 18px;
@@ -75,6 +75,6 @@ button#division:hover, button#mult:hover, button#plus:hover, button#minus:hover,
     background-color: rgb(160, 92, 3);
 }
 
-button#erase:hover, button#signals:hover, button#percent:hover {
+button#erase:hover, button#signals:hover, button#backspace:hover {
     background-color: rgb(80, 80, 80);
 }
