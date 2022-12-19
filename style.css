@@ -4,16 +4,39 @@
     align-items: center;
     width: 100%;
    margin-top: 50px;
+   background-color: black;
+   
 
+}
+
+.calculator-background {
+    background-color: rgb(121, 116, 116);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+#resultado {
+    width: 200px;
+    border-radius: 20px;
+    background: black;
 }
 
 button {
     background: #000000;
     color: #e8eaed;
     width: 50px;
+    border-radius: 150px;
 }
 
-body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgb(126, 119, 119);
+button#division, button#mult, button#minus, button#plus, button#mult, button#equal {
+    background: orange;
+}
+
+button#percent, button#signals, button#erase {
+    background: gray;
+}
+
+button#equal {
+    width: 100px;
 }
