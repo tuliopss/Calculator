@@ -1,8 +1,23 @@
 
-function erase() {
-    ce = document.getElementById('erase');
+function insert(num) {
+   var number = document.getElementById('resultado').value
+   document.getElementById('resultado').value = number + num;
+
 }
 
+function erase() {
+    document.getElementById('resultado').value = ""
+}
+
+function calculate() {
+    var result = document.getElementById('resultado').value;
+    
+    if (result == 0) {
+        document.getElementById('resultado').value = 'EMPTY'
+    } else {
+        document.getElementById('resultado').value = eval(result)
+    }
+}
 
 
 

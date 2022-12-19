@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
 .calculator {
     display: flex;
     justify-content: center;
@@ -12,14 +15,25 @@
 .calculator-background {
     background-color: rgb(121, 116, 116);
     padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
     border-radius: 20px;
-    
+    width: 250px;
+    height: 230px;   
 }
 
 #resultado {
     width: 200px;
     border-radius: 20px;
     background: black;
+    height: 30px;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 10px;
+    text-decoration: none;
+
 }
 
 button {
@@ -27,16 +41,40 @@ button {
     color: #e8eaed;
     width: 50px;
     border-radius: 150px;
+    height: 40px;
+    font-family: 'Helvetica';   
+    font-weight: 800;
+    cursor: pointer;
+    
+    
 }
 
+
+
 button#division, button#mult, button#minus, button#plus, button#mult, button#equal {
-    background: orange;
+    background: rgb(241, 142, 11);
+    font-size: 18px
+    
 }
 
 button#percent, button#signals, button#erase {
     background: gray;
+    color: #000000;
+    font-size: 18px;
 }
 
-button#equal {
-    width: 100px;
+button#zero {
+    width: 102px;
+}
+
+button[class^='botao-num']:hover {
+    background-color: rgb(44, 42, 42);
+}
+
+button#division:hover, button#mult:hover, button#plus:hover, button#minus:hover,button#equal:hover{
+    background-color: rgb(160, 92, 3);
+}
+
+button#erase:hover, button#signals:hover, button#percent:hover {
+    background-color: rgb(80, 80, 80);
 }
