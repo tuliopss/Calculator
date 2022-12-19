@@ -1,3 +1,3 @@
 # Calculator
-A project of a little calculator using JavaScript, HTML and CSS
+a project of a calculator with the design based on the visual IOS using JavaScript, HTML and CSS
 
