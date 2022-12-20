@@ -19,9 +19,7 @@ function calculate() {
     
     if (result == 0) {
         document.getElementById('resultado').value = 'EMPTY';
-        
     } 
-   
     else {
         document.getElementById('resultado').value = eval(result)
     }
@@ -37,10 +35,9 @@ function negative() {
     
 }
 
-function NaNcheck() {
-    if(document.getElementById('resultado') === NaN) {
-        erase();
-    }
+function potentional() {
+    let number = document.getElementById('resultado').value;
+    document.getElementById('resultado').value = number*number;
 }
 
 

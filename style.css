@@ -8,8 +8,6 @@
     width: 100%;
    margin-top: 50px;
    background-color: black;
-   
-
 }
 
 .calculator-background {
@@ -19,53 +17,57 @@
     padding-left: 20px;
     padding-bottom: 20px;
     border-radius: 20px;
-    width: 250px;
-    height: 230px;   
+    width: 390px;     /*250px*/
+    height: 390px;    /*230px*/
+}
+
+button[class^='botao-num'] {
+    width: 100px;
+    font-size: 20px;
 }
 
 #resultado {
-    width: 200px;
+    width: 360px;
     border-radius: 20px;
     background: black;
     height: 30px;
     color: white;
     text-align: right;
-    font-size: 18px;
+    font-size: 30px;
     padding-right: 10px;
     text-decoration: none;
-
+    margin-bottom: 10px;
 }
 
 button {
+    
     background: #000000;
     color: #e8eaed;
-    width: 50px;
+    width: 74px; /*50px*/
     border-radius: 150px;
-    height: 40px;
+    height: 70px;
     font-family: 'Helvetica';   
     font-weight: 800;
     cursor: pointer;
+    font-size: 15px;
     
     
 }
-
-
 
 button#division, button#mult, button#minus, button#plus, button#mult, button#equal {
     background: rgb(241, 142, 11);
-    font-size: 18px
+    font-size: 20px
     
 }
 
-button#backspace, button#signals, button#erase {
+button#backspace, button#signals, button#erase, button#potentional {
     background: gray;
     color: #000000;
     font-size: 18px;
+    
 }
 
-button#zero {
-    width: 102px;
-}
+
 
 button[class^='botao-num']:hover {
     background-color: rgb(44, 42, 42);
@@ -75,6 +77,12 @@ button#division:hover, button#mult:hover, button#plus:hover, button#minus:hover,
     background-color: rgb(160, 92, 3);
 }
 
-button#erase:hover, button#signals:hover, button#backspace:hover {
-    background-color: rgb(80, 80, 80);
+button#erase:hover, button#signals:hover, button#backspace:hover, button#potentional:hover {
+    background-color: rgb(80, 80, 80); 
+}
+
+button#backspace {
+    font-size: 20px;
+    font-weight: 700;
+    
 }

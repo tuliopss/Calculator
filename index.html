@@ -16,10 +16,11 @@
     </div>
 
     
-    <div class="num-row">
+    <div class="num-row1">
         <button class="botao" id="erase" onclick="erase()">AC</button>
-        <button class="botao" id="backspace" onclick="backspace()">&rarr;</button>
+        <button class="botao" id="backspace" onclick="backspace()"><b>&rarr;</b></button>
         <button class="botao" id="signals" onclick="negative()">+/-</button>
+        <button class="botao" id="potentional" onclick="potentional()">x²</button>
         <button class="botao" id="division" onclick="insert('/')">/</button>
     </div>
 
@@ -51,6 +52,7 @@
 
     <div class="num-row">
         <button class="botao-num" id="zero" onclick="insert(0)">0</button>
+        <button class="botao-num" id="doublezero" onclick="insert('00')">00</button>
         <button class="botao-num" id="point" onclick="insert('.')">.</button>
         <button class="botao" id="equal" onclick="calculate()">=</button>
         
