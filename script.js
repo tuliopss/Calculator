@@ -29,9 +29,6 @@ function negative() {
     let number = document.getElementById('resultado').value
     document.getElementById('resultado').value = number.replace(number, -number)
 
-    if(document.getElementById('resultado') == NaN) {
-        let field = document.getElementById('resultado').replace(NaN, '(-)')
-    }
     
 }
 
